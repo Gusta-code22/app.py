@@ -3,7 +3,7 @@ from random import choice
 from time import sleep
 
 # Título do app
-st.title("Pedra.Papel. Tesoura")
+st.title("Pedra-Papel-tesoura")
 
 # Inicializa contadores de vitórias, derrotas e rodadas no estado da sessão, se ainda não existirem
 if 'c' not in st.session_state:
